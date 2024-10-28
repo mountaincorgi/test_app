@@ -29,3 +29,4 @@
 ### Notes
 
 * Check the ports!
+* Superuser: root/root
