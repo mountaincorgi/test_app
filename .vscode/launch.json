@@ -10,7 +10,7 @@
             "request": "launch",
             "args": [
                 "runserver",
-                "0.0.0.0:8000"
+                "0.0.0.0:8005"
             ],
             "django": true,
             "autoStartBrowser": false,
@@ -29,6 +29,17 @@
                 "--queues=celery"
             ],
             "cwd": "${workspaceFolder}/testapp"
+        },
+        {
+            "name": "Shell",
+            "type": "debugpy",
+            "request": "launch",
+            "args": [
+                "shell"
+            ],
+            "django": true,
+            "autoStartBrowser": false,
+            "program": "${workspaceFolder}/testapp/manage.py"
         }
     ]
 }
